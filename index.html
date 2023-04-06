@@ -1,43 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
+
 <body>
-    <ol type="A">
-        <li>Apple</li>
-        <li>orange</li>
-        <li>pineapple</li>
-        <li>mango</li>
-        <li>grapes</li>
-    </ol>
-    <img src="./images/b.jpg" alt="image here" width="400">
+  <ol type="A">
+    <li>Apple</li>
+    <li>orange</li>
+    <li>pineapple</li>
+    <li>mango</li>
+    <li>grapes</li>
+  </ol>
+  <img src="./images/b.jpg" alt="image here" width="400">
   <table border="1" cellspacing="2" cellpadding="2">
-    <thead >
-        <tr >
-            <!-- <th colspan="2">Information</th> -->
-          <th>name</th>
-          <th>Contact Number </th>
-          <th>surname</th>
-           </tr>
-       <tbody>
-        <tr>
-            <td rowspan="2">span</td>
-          <td>ak</td>
-          <td>1234567890</td>
-          <td>sharma</td>
-          
-        </tr>
-        <tr>
-          <td>ka</td>
-          <td>1234567890</td>
-          <td>kapoor</td>
-         
-        </tr>
+    <thead>
+      <tr>
+        <!-- <th colspan="2">Information</th> -->
+        <th></th>
+        <th>name</th>
+        <th>Contact Number </th>
+        <th>surname</th>
+      </tr>
+    <tbody>
+      <tr>
+        <td rowspan="2">span</td>
+        <td>ak</td>
+        <td>1234567890</td>
+        <td>sharma</td>
+
+      </tr>
+      <tr>
+        <td>ka</td>
+        <td>1234567890</td>
+        <td>kapoor</td>
+
+      </tr>
   </table>
+  <ol>
+    <li>A</li>
+    <li>B</li>
+    <li>C</li>
+    <li>D</li>
+    <ul type="disc">
+      <li>E</li>
+      <li>F</li>
+      <li>G</li>
+      <li>H</li>
+      <ol type="I">
+        <li>I</li>
+        <li>J</li>
+        <li>K</li>
+        <li>K</li>
+      </ol>
+    </ul>
+  </ol>
+  <!-- Create one form that contain name input, password input, 3 radio buttons(HTML,CSS,JS), 2 checkboxes(cricket, football, hockey) and one submit button . When you click on that button the value should be shown in the URL -->
+
+  <form action="#">
+
+    <label for="name">Name:</label>
+    <input type="text" name="Fullname" id="name">
+  <br>
+  <br>
+    <label for="password">Password:</label>
+    <input type="password" name="password" id="password">
+    <br>
+    <br>
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email">
+    <br>
+    <br>
+    <!-- radiobuttons -->
+    <input type="radio" name="Language" value="HTML" id="HTML">
+    <label for="HTML">HTML</label>
+    <br>
+    <input type="radio" name="Language" value="CSS" id="CSS">
+    <label for="CSS">CSS </label>
+    <br>
+    <input type="radio" name="Language" value="JS" id="JS">
+    <label for="JS">JS </label>
+    <br>
+    <br>
+     <!-- checkboxes -->
+    <input type="checkbox" name="Sports" value="cricket" id="cricket">
+    <label for="cricket">cricket</label>
+    <br>
+    <input type="checkbox" name="Sports" value="football" id="football">
+    <label for="football">football </label>
+    <br>
+    <br>
+    <input type="checkbox" name="Sports" value="hockey" id="hockey">
+    <label for="hockey">hockey </label>
+    <br>
+    <br>
+    <!-- submit button -->
+     <input type="submit" name="submit" value="submit ">
+     <!-- <button>submit</button> -->
+  </form>
+
+<!-- raowspan imlimentation -->
+
+<table border="2">
+  <tr>
+    <th>name</th>
+    <td>Akanksha</td>
+  </tr>
+  <tr>
+    <th rowspan="2">Phone</th>
+    <td>1234567</td>
+  </tr>
+  <tr>
+    <td>123456789</td>
+  </tr>
+</table>
+
 
 </body>
+
 </html>
